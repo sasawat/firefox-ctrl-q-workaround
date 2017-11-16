@@ -8,6 +8,8 @@ Bind the script to Ctrl+Q system wide. For example, I use i3wm, so I have this i
 bindsym Ctrl+q exec ~/noctrlq.sh
 ```
 
+You might need to install `xdotool` and `xvkbd`.
+
 # How it works
 I gets the active window using xdotool and if it's not Firefox, it uses xvkbd to forward the Ctrl+Q onto it, otherwise it is Firefox and it doesn't. Much thank to this StackOverflow question: https://askubuntu.com/questions/97213/application-specific-key-combination-remapping
 
