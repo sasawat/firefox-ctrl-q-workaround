@@ -5,7 +5,7 @@ A workaround for Firefox 57 Quantum breaking CtrlQ Disable Extensions on Linux
 Bind the script to Ctrl+Q system wide. For example, I use i3wm, so I have this in my i3 config
 
 ```
-bindsym Ctrl+q exec ~/noctrlq.sh
+bindsym Control+q exec ~/noctrlq.sh
 ```
 
 You might need to install `xdotool` and `xvkbd`.
